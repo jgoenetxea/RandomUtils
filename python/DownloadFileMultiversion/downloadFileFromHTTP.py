@@ -57,6 +57,6 @@ def download_file(url, dest=None):
 
 if __name__ == "__main__":  # Only run if this file is called directly
     print("Testing with dlib release file")
-    url = "http://webdav:Vicomtech1@nashville.vicomtech.es:8080/viulib/ApplicationPackages/sample_dmfFaceTracking_data.zip"
+    url = "https://github.com/davisking/dlib/archive/v19.7.zip"
     filename = download_file(url)
     print(filename)
